@@ -19,7 +19,7 @@
         "test": "mocha --exit --recursive 'test/**/*.test.ts'",
         "build": "tsc",
         "watch": "tsc -w",
-        "prepublishOnly": "npm run build",
+        "prepublishOnly": "yarn build",
         "prettier": "prettier --check src/**/*.ts"
     },
     "files": [
