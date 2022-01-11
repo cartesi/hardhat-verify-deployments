@@ -1,12 +1,12 @@
 {
     "name": "@cartesi/hardhat-verify-deployments",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Etherscan verification of contracts deployed by hardhat-deploy",
     "repository": "github:cartesi/hardhat-verify-deployments",
     "author": "Danilo Tuler",
     "license": "Apache-2.0",
-    "main": "dist/src/index.js",
-    "types": "dist/src/index.d.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "keywords": [
         "ethereum",
         "smart-contracts",
@@ -23,8 +23,11 @@
         "prettier": "prettier --check src/**/*.ts"
     },
     "files": [
-        "dist/src/",
-        "src/",
+        "dist",
+        "src",
+        "CHANGELOG",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTING.md",
         "LICENSE",
         "README.md"
     ],
